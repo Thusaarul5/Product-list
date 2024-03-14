@@ -1,0 +1,100 @@
+.product-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.products-container {
+    display: flex;
+    margin-bottom: -450px;
+    width: auto;
+    height: auto;
+}
+.product-card {
+    margin: 0 10px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+    /* Set width */
+    height: 300px;
+    /* Set height */
+    box-sizing: border-box;
+}
+
+.product-card img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.product-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow products to wrap to the next line */
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #ccc;
+
+}
+
+.product-card {
+    margin: 0 10px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid #0b0b0b;
+    border-radius: 5px;
+    width: calc(25% - 20px);
+    /* Calculate 25% of the available width minus margins */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+/* Add this CSS to your style.css file */
+/* Add this CSS to your style.css file */
+
+.product-slider {
+    position: relative;
+}
+
+.loading-animation {
+    position: relative;
+    /* Set the position to relative */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Semi-transparent white background */
+    width: 100%;
+    padding: 60px 0;
+    /* Adjust padding as needed */
+}
+
+.loading-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    /* Text color */
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Same as parent background */
+    padding: 20px 0;
+    /* Adjust padding as needed */
+    width: 100%;
+}
+/* Add any additional styling as desired */
